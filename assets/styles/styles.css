@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-green-500: #3c8067;
+    --primary-green-700: #1b4133;
+    --neutral-black: #1c232b;
+    --neutral-grey: #6c7289;
+    --neutral-cream: #f2ebe3;
+    --neutral-white: #ffffff;
+
+    --font-primary: Montserrat;
+    --font-secondary: Fraunces;
+}
+
+body {
+    background-color: var(--neutral-cream);
+
+}
+
+/* ==========Product Card==========*/
+.product-card {
+    margin: 6rem 1rem;
+    background-color: var(--neutral-white);
+    border-radius: 10px;
+}
+
+.product-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+/* ==========Product details==========*/
+.product-details {
+    padding: 2rem;
+}
+
+.product-details h1 {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.product-details h2 {
+    font-family: var(--font-secondary);
+    padding: 1.25rem 0;
+    font-weight: 700;
+}
+
+.product-details p {
+    font-family: var(--font-primary);
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
+    color: var(--neutral-grey);
+}
+
+.price-section .price {
+    font-family: var(--font-secondary);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-green-500);
+
+}
+
+.price-section .original-price {
+    text-decoration: line-through;
+    font-family: var(--font-primary);
+    font-size: 0.875rem;
+    color: var(--neutral-grey);
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+}
+
+.add-to-cart-button {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    background-color: var(--primary-green-500);
+    color: var(--neutral-cream);
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    position: relative;
+}
+
+.add-to-cart-button::before {
+    content: url(../images/icon-cart.svg);
+    position: absolute;
+    left: 70px;
+}
