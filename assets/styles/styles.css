@@ -110,7 +110,9 @@ body {
     background-color: var(--primary-green-700);
 }
 
-
+.add-to-cart-button:focus {
+    outline: 2px solid var(--primary-green-500);
+}
 
 /* ==========Media Query========== */
 /* Tablet */
