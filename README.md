@@ -26,11 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-
+![Screenshot of the finished Blog preview card ](./assets/images/product-dektop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Chantal-Yvonne/product-preview-card-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -41,14 +41,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
-
-### What I learned
-
-
-
-### Continued development
-
 
 
 ## Author
